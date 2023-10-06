@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val img:ImageView = findViewById(R.id.alarmimage)
+        val img:ImageView = findViewById(R.id.alarm1)
         img.setBackgroundResource(R.drawable.alarm_animation_list)
         alarminimation = img.background as AnimationDrawable
     }
